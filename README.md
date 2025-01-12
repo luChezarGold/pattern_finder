@@ -21,3 +21,15 @@ based on historical trends.
 │   ├── CLOSE_patterns_found.json
 │   ├── VOLUME_patterns_found.json
 │   └── ...
+
+```
+## Prerequisites  
+- Python 3.6+  
+- Libraries: `pandas`, `numpy`, `tqdm`, `json`  
+
+## Usage  
+- **Input File**: Place your MetaTrader5-exported CSV file in the script's directory.  
+- **Excluded Columns**: Update the `exclude_columns` list to ignore unnecessary columns.  
+- **Run the Script**:  
+  ```bash
+  python pattern_analysis.py
